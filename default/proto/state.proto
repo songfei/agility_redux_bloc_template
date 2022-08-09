@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package {{bloc_name}};
+
+message {{bloc_name_pascal_case}}State {
+
+}

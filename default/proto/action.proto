@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package {{bloc_name}};
+
+import "options/dart_options.proto";
+
+option (dart_options.imports) = {
+  mixins: [{
+    name: "ReduxAction"
+    import_from: "package:agility_redux/agility_redux.dart"
+  }];
+}
+;
+
+option (dart_options.default_mixin) = "ReduxAction";
+
