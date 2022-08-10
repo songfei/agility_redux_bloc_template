@@ -1,0 +1,33 @@
+name: competence_expansion_implement
+description: A new Flutter project.
+version: 0.0.1
+
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  clickable: 0.0.11
+  flexible: ^1.0.0
+  flutter_svg: ^1.1.1+1
+  agility_redux_bloc: ^0.0.47
+
+  ui_component:
+    path: ../../../ui_component
+
+  competence_expansion_interface:
+    path: ../competence_expansion_interface
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/image/
+    - assets/svg/
+  uses-material-design: true

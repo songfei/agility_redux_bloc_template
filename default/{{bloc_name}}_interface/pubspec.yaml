@@ -1,0 +1,22 @@
+name: {{bloc_name}}_interface
+description: An Agility Redux BLoC package
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  agility_redux_bloc: ^0.0.47
+  protobuf: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
