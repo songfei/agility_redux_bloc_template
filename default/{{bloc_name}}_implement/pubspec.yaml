@@ -1,4 +1,4 @@
-name: competence_expansion_implement
+name: {{bloc_name}}_implement
 description: A new Flutter project.
 version: 0.0.1
 
@@ -20,8 +20,8 @@ dependencies:
   ui_component:
     path: ../../../ui_component
 
-  competence_expansion_interface:
-    path: ../competence_expansion_interface
+  {{bloc_name}}_interface:
+    path: ../{{bloc_name}}_interface
 
 dev_dependencies:
   flutter_lints: ^2.0.0
