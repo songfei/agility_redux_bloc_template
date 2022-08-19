@@ -5,7 +5,7 @@ version: 0.0.1
 publish_to: none
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -15,7 +15,8 @@ dependencies:
   clickable: 0.0.11
   flexible: ^1.0.0
   flutter_svg: ^1.1.1+1
-  agility_redux_bloc: ^0.0.47
+  agility_redux_bloc: ^1.0.0
+  protobuf: ^2.1.0
 
   ui_component:
     path: ../../../ui_component

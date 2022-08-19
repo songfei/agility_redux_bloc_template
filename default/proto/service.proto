@@ -2,3 +2,7 @@ syntax = "proto3";
 
 package {{bloc_name}};
 
+
+service {{bloc_name_pascal_case}}Service {
+
+}

@@ -12,10 +12,10 @@ class {{bloc_name_pascal_case}}ReduxBloc extends SimpleReduxBloc<{{bloc_name_pas
   String get moduleName => '{{bloc_name}}';
 
   @override
-  {{bloc_name_pascal_case}}State get initialState => {{bloc_name_pascal_case}}State().freeze();
+  {{bloc_name_pascal_case}}State get initialState => {{bloc_name_pascal_case}}State().freeze() as {{bloc_name_pascal_case}}State;
 
   @override
-  Private{{bloc_name_pascal_case}}State get initialPrivateState => Private{{bloc_name_pascal_case}}State().freeze();
+  Private{{bloc_name_pascal_case}}State get initialPrivateState => Private{{bloc_name_pascal_case}}State().freeze() as Private{{bloc_name_pascal_case}}State;
 
   @override
   void initBloc() {}

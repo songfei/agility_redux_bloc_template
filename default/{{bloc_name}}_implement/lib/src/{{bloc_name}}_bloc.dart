@@ -7,7 +7,7 @@ class {{bloc_name_pascal_case}}Bloc extends Bloc {
 {{bloc_name_pascal_case}}Bloc();
 
   @override
-  String moduleName = '{{bloc_name}}';
+  String get moduleName => '{{bloc_name}}';
 
   @override
   Map<String, BlocPageBuilder> initialPageList() {

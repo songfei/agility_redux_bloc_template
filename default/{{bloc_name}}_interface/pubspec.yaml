@@ -4,15 +4,15 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  agility_redux_bloc: ^0.0.47
-  protobuf: ^2.0.0
+  agility_redux_bloc: ^1.0.0
+  protobuf: ^2.1.0
 
 dev_dependencies:
   flutter_test:
